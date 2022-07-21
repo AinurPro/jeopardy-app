@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-color: aqua;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwwGnNNnJbIe7j8DqBNUl3qWOoIjG0oIS_OQ&usqp=CAU")
+}
+.welcome{
+  color: yellow;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: green
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(460deg);
+  }
+}
